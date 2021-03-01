@@ -30,13 +30,16 @@ body{
 .digital-box{
     fill: #FFF;
     stroke: #012738;
-    stroke-width: 9;
+    stroke-width: 5;
     stroke-miterlimit: 10;
 }
 .digital-text{
     font-family: 'DotGothic16', sans-serif;
     font-size: 50px;
     fill: #012738;
+}
+.sm-font{
+    font-size: 30px !important;
 }
 .hour-marks {
     fill: none;
