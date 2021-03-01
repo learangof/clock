@@ -1,9 +1,14 @@
+body{
+    background-color: #012F45;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 .main {
     display: flex;
-    padding: 2em;
-    height: 90vh;
+    height: 100%;
     justify-content: center;
-    align-items: middle;
+    align-items: center;
 }
 
 .clockbox,
@@ -13,50 +18,53 @@
 
 /* Clock styles */
 .circle {
-    fill: none;
-    stroke: #000;
+    fill: #0287C4;
+    stroke: #016491;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill: #000;
+    fill: #012738;
+}
+.digital-box{
+    fill: #FFF;
+    stroke: #012738;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
+    stroke: #012738;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
-    stroke: #000;
+    stroke: #012738;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
+    stroke: #012738;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: #012738;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
 
-/* Transparent box ensuring arms center properly. */
 .sizing-box {
     fill: none;
 }
 
-/* Make all arms rotate around the same center point. */
-/* Optional: Use transition for animation. */
 #hour,
 #minute,
 #second {
